@@ -319,10 +319,10 @@ async def start_proxy(self):
                 print("[proxy] CA write failed:", e)
 
             # ClientSettings override
-            target_folder = version_folder if app_name.lower() == "roblox" else (Path(path) / "Modifications")
-            client_settings_folder = target_folder / "ClientSettings"
+            target_folder = Path.home() / "AppData/Local/Roblox/ClientSettings"
+            client_settings_folder = target_folder
             client_settings_folder.mkdir(exist_ok=True)
-            settings_file = client_settings_folder / "ClientAppSettings.json"
+            settings_file = client_settings_folder / "IxpSettings.json"
 
             try:
                 existing = {}
