@@ -12,7 +12,7 @@ or
 1. Install the python file
 2. Run this in command prompt
 ```bash
-install -r requirements.txt
+pip install -r requirements.txt
 ```
 3. Run The script
 ```bash
