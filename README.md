@@ -1,4 +1,5 @@
 # Hopr GUI
+# This tool wont get any further updates. Please use [This](https://github.com/BLOCKCE/Hopr-Utilities) instead
 ![GitHub Releases](https://img.shields.io/github/downloads/BLOCKCE/Hopr-GUI/total.svg)
 
 This tool let's you join any subplace as long as its not privated really quickly and with 100% chance of success.
@@ -20,4 +21,3 @@ python Hopr.py
 ```
 
 If you have any questions or need help, ask in the post in utilities in the RGC discord server (https://discord.gg/ASBxMYeBNn).
-We will continue to update this until we think it doesn't require any more updates. If you have any feature requests you can also post those in the utilities post in the RGC discord server.
